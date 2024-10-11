@@ -4,17 +4,17 @@
 
 ### 🎉 New Feature Added: `ngx-dark-theme-select` 🎉
 
-We are excited to announce a **new feature** in our package: the `ngx-dark-mode-select` component! This feature allows you to toggle between **dark mode** and **light mode** with a select input element, elevating the user experience with customizable theme options.
+We are excited to announce a **new feature** in our package: the `ngx-dark-theme-select` component! This feature allows you to toggle between **dark mode** and **light mode** with a select input element, elevating the user experience with customizable theme options.
 
 
 ## Demo
 
-Live demo is available on [Ngx-dark-theme-toggle](https://stackblitz.com/edit/ngx-dark-theme-toggle-demo) and [Ngx-dark-theme-select](https://stackblitz.com/edit/ngx-dark-mode-select-demo)
+Live demo is available on [Ngx-dark-theme-toggle](https://stackblitz.com/edit/ngx-dark-theme-toggle-demo) and [Ngx-dark-theme-select](https://stackblitz.com/edit/ngx-dark-theme-select-demo)
 
 
 ## Overview
 
-The @**ngx-dark-mode/core Library** is a simple and lightweight Angular component that allows users to switch between dark and light themes. This customizable toggle button provides an enhanced user experience with support for modern design practices.
+The @**ngx-dark-theme Library** is a simple and lightweight Angular component that allows users to switch between dark and light themes. This customizable toggle button provides an enhanced user experience with support for modern design practices.
 
 ## Features
 
@@ -97,6 +97,6 @@ You can configure the `<ngx-dark-theme-toggle>` component with the following opt
 
 ## Have an Issue or Feature Request?
 
-If you encounter any issues or have a feature request, we'd love to hear from you! Please feel free to [open an issue](https://github.com/AbduBehindTheCode/ngx-dark-mode/issues) on our GitHub repository.
+If you encounter any issues or have a feature request, we'd love to hear from you! Please feel free to [open an issue](https://github.com/AbduBehindTheCode/ngx-dark-theme/issues) on our GitHub repository.
 
 Whether it's a bug report, a suggestion for improvement, or a feature you'd like to see, your feedback helps us make this library better for everyone.

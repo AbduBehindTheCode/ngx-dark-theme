@@ -1,0 +1,16 @@
+<div class="select">
+    <div class="select__input" (click)="toggleDropdown()">
+        <span *ngIf="selectedTheme === 'light'"><mat-icon>light_mode</mat-icon></span>
+        <span *ngIf="selectedTheme === 'dark'"><mat-icon>dark_mode</mat-icon></span>
+    </div>
+  
+    <div class="select__options" *ngIf="isOptionsListVisible">
+      <div class="select__options--item" (click)="onThemeSelection('light')" [class.selected]="selectedTheme === 'light'">
+        <mat-icon>light_mode</mat-icon>
+      </div>
+      <div class="select__options--item" (click)="onThemeSelection('dark')" [class.selected]="selectedTheme === 'dark'">
+        <mat-icon>dark_mode</mat-icon>
+      </div>
+    </div>
+  </div>
+  
