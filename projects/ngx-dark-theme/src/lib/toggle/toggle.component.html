@@ -1,0 +1,7 @@
+<div class="toggle-container" id="dark-mode-toggle">
+    <span *ngIf="!hideLabel" class="label-left">{{labelText}}</span>
+    <label class="switch">
+        <input [(ngModel)]="darkMode" (change)="setDarkMode($event)" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+ </div>

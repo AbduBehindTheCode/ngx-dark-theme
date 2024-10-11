@@ -1,0 +1,16 @@
+$bgColor-light: white;
+$bgColor_dark: black;
+
+$textColor_light: black;
+$textColor_dark: white;
+
+
+@mixin lighten() {
+  --bgColor: #{$bgColor-light};
+  --text-color: #{$textColor_light};
+}
+  
+@mixin darken() {
+  --bgColor: #{$bgColor_dark};
+  --text-color: #{$textColor_dark};
+}
