@@ -1,6 +1,6 @@
 {
   "name": "ngx-dark-theme",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A lightweight Angular component for toggling between dark and light mode, with customizable styling and persistent theme storage for a consistent user experience.",
   "homepage": "https://github.com/AbduBehindTheCode/ngx-dark-mode",
   "repository": {
@@ -27,7 +27,9 @@
     "ngx",
     "ngx-dark-mode",
     "ngx dark mode",
-    "ngx toggle mode"
+    "ngx toggle mode",
+    "ngx-dark-theme",
+    "ngx-light-theme"
   ],
   "license": "MIT",
   "peerDependencies": {

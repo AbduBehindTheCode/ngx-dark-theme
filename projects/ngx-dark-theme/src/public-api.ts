@@ -3,3 +3,5 @@
  */
 
 export * from './lib/toggle/toggle.component';
+export * from './lib/select/select.component';
+
