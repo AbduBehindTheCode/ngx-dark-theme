@@ -1,0 +1,62 @@
+@use '../ngx-dark-theme-variables.scss' as *;
+
+// dark/light mode style
+body.dark {
+    @include darken();
+}
+
+body.light {
+    @include lighten();
+}
+
+.dark-theme {
+    background-color: var(--bgColor);
+    color: var(--text-color);
+}
+
+.select {
+  position: relative;
+  width: 70px;
+  font-family: 'Arial', sans-serif;
+
+  &__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #e4e2e2;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 4px;
+  }
+
+  &__options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 70px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1000;
+
+    &--item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      cursor: pointer;
+      justify-content: center;
+
+      &:hover {
+        background-color: #f1f1f1;
+      }
+    }
+
+    &--item.selected {
+      background-color: #e0e0e0;
+    }
+  }
+}
+
+.mat-icon {
+  color: black
+}
